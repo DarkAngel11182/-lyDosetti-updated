@@ -1,0 +1,21 @@
+{
+        "type": "commonjs",
+        "name": "your-package-name",
+        "version": "1.0.0",
+        "dependencies": {
+                "@expo/vector-icons": "^14.0.0",
+                "@react-navigation/native": "^6.0.0",
+                "@react-navigation/native-stack": "6.9.26",
+                "expo-font": "~11.10.3",
+                "expo-image": "~1.10.6",
+                "react-native-paper": "4.9.2",
+                "react-native-safe-area-context": "4.8.2",
+                "react-native-screens": "~3.29.0"
+        },
+        "devDependencies": {
+                "@babel/cli": "^7.24.5",
+                "@babel/core": "^7.24.5",
+                "@babel/preset-env": "^7.24.5",
+                "@babel/preset-react": "^7.24.1"
+        }
+}
