@@ -1,6 +1,7 @@
 import React from 'react';
 import { StyleSheet, View, Text, Image } from 'react-native';
 import { useNavigation } from '@react-navigation/native';
+
 import Button from '../components/Button'; // Assuming Button is a generalized component
 import { FontFamily, Color, FontSize, Border } from '../GlobalStyles';
 
@@ -18,7 +19,10 @@ const WelcomePage = () => {
         source={require('../assets/logo-placeholder.png')}
       />
       <Button title="Log in" onPress={() => handlePress('Login')} />
-      <Button title="Create Account" onPress={() => handlePress('CreateAccount')} />
+      <Button
+        title="Create Account"
+        onPress={() => handlePress('CreateAccount')}
+      />
       <Text style={styles.forgotAccount}>Forgot account</Text>
       <View style={styles.topBar}>
         <Text style={styles.title}>MedMate</Text>
@@ -69,4 +73,3 @@ const styles = StyleSheet.create({
 });
 
 export default WelcomePage;
-
